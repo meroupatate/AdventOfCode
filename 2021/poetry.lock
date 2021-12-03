@@ -22,8 +22,8 @@ python-versions = ">=3.6"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9"
-content-hash = "253cb0417bfbd58ad04cb70373fc38f48b8c0c9270d2bc9414f721cf1df4b1c1"
+python-versions = "^3.10"
+content-hash = "3303a9fbe9ab6c0146c4fa8343ff75e1f98ed770a0e7386d76046f91f8d51d2b"
 
 [metadata.files]
 jinja2 = [
