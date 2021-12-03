@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "2021"
+version = "0.1.0"
+description = ""
+authors = ["Alice ZHEN <lishi.alice@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Jinja2 = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
