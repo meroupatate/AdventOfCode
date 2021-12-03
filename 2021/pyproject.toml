@@ -5,7 +5,7 @@ description = ""
 authors = ["Alice ZHEN <lishi.alice@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.10.0"
 Jinja2 = "^3.0.3"
 
 [tool.poetry.dev-dependencies]
