@@ -6,7 +6,7 @@ class InputFile(Enum):
 
 
 def extract_lines(day, input_file):
-    return open(f"inputs/{day:02d}/{input_file.value}", "r").read().split()
+    return open(f"inputs/{day:02d}/{input_file.value}", "r").read().splitlines()
 
 
 def extract_ints(day, input_file):
