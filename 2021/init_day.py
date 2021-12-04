@@ -3,7 +3,7 @@ import glob
 import re
 import os
 
-existing_days = glob.glob("./day*.py")
+existing_days = sorted(glob.glob("./day*.py"))
 last_day = re.findall(r"(\d{2})", existing_days[-1])[0]
 day = int(last_day) + 1
 
