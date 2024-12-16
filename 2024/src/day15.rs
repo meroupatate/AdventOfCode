@@ -1,9 +1,4 @@
-use std::{
-    arch::x86_64::_mm_move_sd,
-    collections::{vec_deque, VecDeque},
-    thread::current,
-    vec,
-};
+use std::{collections::VecDeque, vec};
 
 pub struct Input {
     grid: Vec<Vec<char>>,
